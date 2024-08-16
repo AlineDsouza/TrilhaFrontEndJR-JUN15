@@ -150,12 +150,28 @@ ul li img{
     font-size: 1.2rem;
 }
 .contact h2{
-    margin: auto;
-    
+    margin: auto;   
 }
 /*footer*/
 footer{
     background-color: var(--brancotranparent);
     text-align: center;
     padding: 5rem;
+}
+/*button up*/
+.scroll{
+    border:0;
+    background-color:var(--vermelho);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+.button-up {
+    padding: 0;
 }
