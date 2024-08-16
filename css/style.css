@@ -101,3 +101,26 @@ header{
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+/*skills*/
+.skills h2{
+    font-size: 1.9rem;
+    text-align: center;
+}
+.skills-hard p a{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills-hard{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .50s ease;
+    flex-wrap: wrap
+}
+ul li img{
+   margin: 1rem;
+}
