@@ -1,0 +1,61 @@
+/*cria variável - paleta de cor*/
+:root{
+    --vermelho:#e53939;
+    --preto:#000000;
+    --branco:#ffffff;
+    --brancotranparent:#ffffff1b;
+}/*configuração de toda a página*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*cor do body */
+body{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+/*menu | nav*/
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: transparent;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: all .50s ease;
+    
+}
+.logo{
+    width: 70px;
+}
+span{
+    color: var(--vermelho);
+    
+}
+.nav{
+    display: flex; 
+    margin: 20px;  
+    transition: all .50s ease;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.nav a{
+    margin: 5rem;
+    color: var(--vermelho);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.nav a:hover{
+    color: var(--branco);
+}
