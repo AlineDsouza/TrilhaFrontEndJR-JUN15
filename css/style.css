@@ -143,3 +143,13 @@ ul li img{
     text-align: justify;
     max-width: 80%;   
 }
+/*contact*/
+.contact{
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.contact h2{
+    margin: auto;
+    
+}
