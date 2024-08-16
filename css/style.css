@@ -124,3 +124,22 @@ header{
 ul li img{
    margin: 1rem;
 }
+/*motivation*/
+.motivation{ 
+    background-color:var(--brancotranparent); 
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;        
+}
+.motivation h2{
+    font-size: 1.9rem;
+    margin: 1rem;
+} 
+.motivation p{
+    margin-bottom: 2rem;
+    text-align: justify;
+    max-width: 80%;   
+}
