@@ -20,7 +20,17 @@ body{
     background-color: var(--preto);
     color: var(--branco);
 }
-/*menu | nav*/
+main{
+    display: flex;
+    flex-direction: column;  
+}    
+article{
+    padding: 70px 17% 60px; 
+}
+span{
+    color: var(--vermelho);   
+}
+/*menu | navbar*/
 header{
     position: fixed;
     top: 0;
@@ -32,23 +42,17 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    transition: all .50s ease;
-    
+    transition: all .50s ease;   
 }
 .logo{
     width: 70px;
-}
-span{
-    color: var(--vermelho);
-    
 }
 .nav{
     display: flex; 
     margin: 20px;  
     transition: all .50s ease;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 .nav a{
     margin: 5rem;
@@ -58,4 +62,24 @@ span{
 }
 .nav a:hover{
     color: var(--branco);
+}
+/*banner */
+section{
+    padding: 10px 10% 60px;
+}
+.banner{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.banner-text h4{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.banner-text h3{
+    font-size: 2rem;
 }
