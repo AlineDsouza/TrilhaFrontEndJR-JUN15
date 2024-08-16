@@ -153,3 +153,9 @@ ul li img{
     margin: auto;
     
 }
+/*footer*/
+footer{
+    background-color: var(--brancotranparent);
+    text-align: center;
+    padding: 5rem;
+}
